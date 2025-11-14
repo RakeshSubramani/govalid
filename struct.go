@@ -2,7 +2,7 @@ package govalid
 
 import (
 	"fmt"
-	"govalid/errors"
+	errorpkg "govalid/errors"
 	"govalid/rules"
 	"reflect"
 	"strconv"
