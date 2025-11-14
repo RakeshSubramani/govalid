@@ -26,9 +26,9 @@ func TestStructValidation(t *testing.T) {
 
 func TestStructValidationSuccess(t *testing.T) {
 	u := User{
-		Name:  "Rakesh",
+		Name:  "sample",
 		Age:   22,
-		Email: "rakesh@example.com",
+		Email: "sample@example.com",
 	}
 
 	err := gv.ValidateStruct(u)

@@ -61,34 +61,3 @@ func TestStringRequired(t *testing.T) {
 	}
 }
 
-// func TestStringMin(t *testing.T) {
-// 	val := reflect.ValueOf("hi")
-// 	err := rules.MinLength(val, 3)
-// 	if err == nil {
-// 		t.Errorf("expected min length error, got nil")
-// 	}
-// }
-
-// func TestStringMax(t *testing.T) {
-// 	val := reflect.ValueOf("hello world")
-// 	err := rules.MaxLength(val, 5)
-// 	if err == nil {
-// 		t.Errorf("expected max length error, got nil")
-// 	}
-// }
-
-// func TestStringEmail(t *testing.T) {
-// 	val := reflect.ValueOf("invalid-email")
-// 	err := rules.Email(val)
-// 	if err == nil {
-// 		t.Errorf("expected invalid email error, got nil")
-// 	}
-// }
-
-// func TestStringAlphanumeric(t *testing.T) {
-// 	val := reflect.ValueOf("abc123$")
-// 	err := rules.AlphaNumeric(val)
-// 	if err == nil {
-// 		t.Errorf("expected alphanumeric error, got nil")
-// 	}
-// }
